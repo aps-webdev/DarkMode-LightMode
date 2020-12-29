@@ -23,7 +23,7 @@ function DarkMode() {
   }, [isDark]);
   return (
     <div>
-      <h3>Switch to DARK MODE</h3>
+      <h3>Switch mode to DARK or LIGHT</h3>
       <ToggleBtn handleToggle={handleToggle} />
     </div>
   );
